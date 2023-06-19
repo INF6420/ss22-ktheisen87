@@ -4,113 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaitlyn's Game Reviews</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <img src="images/kaitlyns-reviews-header.jpg" alt="Green and yellow banner with an open book that says Kaitlyn's Reviews">
+        <img src="images/kaitlyns-reviews-header.jpg" class="kat" alt="Green and yellow banner with an open book that says Kaitlyn's Reviews">
     </header>
     <nav>
-        <a href="index.html">Home Page</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="games.html">Video Game Reviews</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="books.html">Book Reviews</a>
+        <button><a href="index.html" class="navbar">Home Page</a></button>
+        <button><a href="games.html" class="navbar">Video Game Reviews</a></button>
+        <button><a href="books.html" class="navbar">Book Reviews</a></button>
     </nav>
     <br /><br /><br />
     <main>
-        <center>
-            <h1>Game Reviews</h1>
-        </center>
+        <h1>Game Reviews</h1>
         <br /><br />
-        <center>
-            <img src="images/playstation-logo.png" alt="PlayStation logo, a black P standing upright with a black S lying horizontally and the word PlayStation in black">
-        </center>
+        <img src="images/playstation-logo.png" class="logo" alt="PlayStation logo, a black P standing upright with a black S lying horizontally and the word PlayStation in black">
         <br />
         <center>
             <table>
                 <tr>
-                    <th>
-                        <h3>Game Name</h3>
-                    </th>
-                    <th>
-                        <h3>Console</h3>
-                    </th>
-                    <th>
-                    <h3>Time to Complete</h3>
-                    </th>
-                    <th>
-                        <h3>Platinum Trophy?</h3>
-                    </th>
-                    <th>
-                        <h3>Rating</h3>
-                    </th>
+                    <th>Game Name</th>
+                    <th>Console</th>
+                    <th>Time to Complete</th>
+                    <th>Platinum Trophy?</th>
+                    <th>Rating</th>
                 </tr>
                 <tr>
                     <td>Stray</td>
-                    <td>PS4, PS5</td>
-                    <td>5 hr</td>
-                    <td>No</td>
+                    <td class="col">PS4, PS5</td>
+                    <td class="col">5 hr</td>
+                    <td class="col">No</td>
                     <td>8 out of 10</td>
                 </tr>
                 <tr>
                     <td>What Remains of Edith Finch</td>
-                    <td>PS4, PS5</td>
-                    <td>2 hr</td>
-                    <td>Yes</td>
+                    <td class="col">PS4, PS5</td>
+                    <td class="col">2 hr</td>
+                    <td class="col">Yes</td>
                     <td>10 out of 10</td>
                 </tr>
                 <tr>
                     <td>Lost Words: Beyond the Page</td>
-                    <td>PS4</td>
-                    <td>7 hr</td>
-                    <td>Yes</td>
+                    <td class="col">PS4</td>
+                    <td class="col">7 hr</td>
+                    <td class="col">Yes</td>
                     <td>8 out of 10</td>
                 </tr>
             </table>
         </center>
         <br /><br /><br />
-        <center>
-            <img src="images/nintendo-logo.png" alt="Nintendo logo, a red oval outlined in white with the word Nintendo printed in white in the center">
-        </center>
-        <br />
+        <img src="images/nintendo-logo.png" class="logo" alt="Nintendo logo, a red oval outlined in white with the word Nintendo printed in white in the center">
         <center>
             <table>
                 <tr>
-                    <th>
-                        <h3>Game Name</h3>
-                    </th>
-                    <th>
-                        <h3>Console</h3>
-                    </th>
-                    <th>
-                        <h3>Time to Complete</h3>
-                    </th>
-                    <th>
-                        <h3>Rating</h3>
-                    </th>
+                    <th>Game Name</th>
+                    <th>Console</th>
+                    <th>Time to Complete</th>
+                    <th>Rating</th>
                 </tr>
                 <tr>
                     <td>Legend of Zelda: Ocarina of Time</td>
-                    <td>Nintendo 64</td>
-                    <td>50+ hr</td>
+                    <td class="col">Nintendo 64</td>
+                    <td class="col">50+ hr</td>
                     <td>10 out of 10</td>
                 </tr>
                 <tr>
                     <td>Phoenix Wright: Ace Attorney</td>
-                    <td>Nintendo DS</td>
-                    <td>20 hr</td>
+                    <td class="col">Nintendo DS</td>
+                    <td class="col">20 hr</td>
                     <td>7 out of 10</td>
                 </tr>
                 <tr>
                     <td>Cozy Grove</td>
-                    <td>Nintendo Switch</td>
-                    <td>50+</td>
+                    <td class="col">Nintendo Switch</td>
+                    <td class="col">50+</td>
                     <td>8 out of 10</td>
                 </tr>
             </table>
         </center>
     </main>
     <br /><br /><br /><br />
-    <footer>&copy; Kaitlyn Theisen 2023</footer>
+    <footer>&copy; Kaitlyn Theisen 2023
+        <div>
+            <a href="https://www.facebook.com/kaitlyn.theisen.5/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/lil_hobbit_gal/" class="fa fa-instagram"></a>
+            <a href="youtube.com/channel/UC6GSKS7_VUkyMlMSv8GWeWw" class="fa fa-youtube"></a>
+            <a href="https://www.reddit.com/user/LittleHobbitGal" class="fa fa-reddit"></a>
+        </div>
+    </footer>
 </body>
 </html>

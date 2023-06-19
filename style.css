@@ -1,0 +1,172 @@
+img.kat{
+    max-width: 100%;
+    height: 100%;
+}
+
+nav{
+    text-align: right;
+}
+
+button{
+    background-color: #134E13;
+    font-size: 175%;
+    border: 4px solid #134E13;
+    padding: 10px;
+    font-family:'Garamond', Times, serif;
+}
+
+a.navbar{
+    color: #ffffe4;
+    text-decoration: none;
+}
+
+body{
+    background-color: #CDE9C6;
+}
+
+h1,
+h2{
+    text-align: center;
+    color:#134E13;
+    font-family: 'Papyrus', fantasy;
+}
+
+p{
+    color: #134E13;
+    font-size: larger;
+}
+
+div.mpdiv{
+    margin: 70px;
+}
+
+img.logo,
+img.cover{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 25%;
+}
+
+img.cover{
+    width: 25%;
+    height: 40%;
+}
+
+div.faves{
+    max-width:949px;
+    float: left;
+}
+
+div.links,
+div.review{
+    background-color: #ffffe4;
+    margin: 10px 150px;
+    padding: 5px;
+}
+
+div.links{
+    text-align: center;
+}
+
+ul.links{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+    margin: 10px;
+    font-weight: bold;
+}
+
+a.buy{
+    color: #134E13;
+}
+
+div.widgets{
+    float: right;
+}
+
+.gr_grid_container {
+    width: 420px;
+    margin-bottom: 150px;
+  }
+
+a.grlinks{
+    color:#134E13;
+    text-decoration:none;
+}
+
+.gr_grid_book_container {
+    float: left;
+    width: 70px;
+    height: 80px;
+    padding: 0px 0px;
+    overflow: hidden;
+  }
+
+p.faves{
+    font-weight: bold;
+}
+
+table{
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th,
+td{
+    border-style: solid;
+    border-color: black;
+    color:#134E13;
+    padding: 10px;
+    font-size: larger;
+}
+
+th{
+    font-style: italic;
+    font-weight: bold;
+}
+
+td.col{
+    text-align: center;
+}
+
+footer{
+    color: #134E13;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
