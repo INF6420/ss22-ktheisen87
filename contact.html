@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaitlyn's Reviews</title>
+    <title>Contact Kaitlyn</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -19,20 +19,23 @@
     </nav>
     <br /><br /><br />
     <main>
-        <h1>Welcome to my page!</h1>
-        <br /><br />
-        <center>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ffXnIxE1ZaM" 
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen></iframe>
-        </center>
-        <br /><br />
-        <div class="mpdiv">
-            <p>Hello and welcome, one and all! My name is Kaitlyn and I'm a geek, plain and simple. I started reading at a young age, was playing video games once I hit double digits, and introduced myself to comics once I reached adulthood. 
-            This site was created so that I could rate and review what I devour for these hobbies for all of you! I hope you try something new and exciting for you in all of the reviews on this site.</p>
-        </div>
+        <form action="https://formspree.io/f/xjvqbeak" method="POST" class="validate">
+            <label class="cform">
+                Your name:
+                <input name="full-name" id="name" type="text" placeholder="Matt Smith" required>
+            </label>
+            <label class="cform">
+                Your email:
+                <input name="email" id="email" type="email" placeholder="email@biziness.com" required>
+            </label>
+            <label class="cform">
+                 Your message:
+                <textarea name="message" id="message" class="form-input" placeholder="Type message here." required></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
     </main>
+    <script src="script.js"></script>
     <br /><br /><br /><br />
     <footer>&copy; Kaitlyn Theisen 2023
         <div>
