@@ -167,27 +167,19 @@ form {
     border-radius: 4px;
     box-sizing: border-box;
   }
-<<<<<<< Updated upstream
-
-=======
   
   .form:focus {
     outline: none;
     border: 2px solid black;
   }
   
->>>>>>> Stashed changes
   textarea {
     height: 150px;
     width: 100%;
     margin-top: 1em;
-<<<<<<< Updated upstream
     margin-bottom: 0.5em;
     font-size: 20px;
     font-weight: 400;
-=======
-    margin-bottom: 0.5em;;
->>>>>>> Stashed changes
     resize: vertical;
   }
 
