@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A contact form to where users can leave their name, email address, and message for Kaitlyn.">
     <title>Contact Kaitlyn</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,11 +23,11 @@
         <form action="https://formspree.io/f/xjvqbeak" method="POST" class="validate">
             <label class="cform">
                 Your name:
-                <input name="full-name" id="name" type="text" placeholder="Matt Smith" required>
+                <input name="full-name" id="name" type="text" autocomplete="on" placeholder="Matt Smith" required>
             </label>
             <label class="cform">
                 Your email:
-                <input name="email" id="email" type="email" placeholder="email@biziness.com" required>
+                <input name="email" id="email" type="email" autocomplete="on" placeholder="email@biziness.com" required>
             </label>
             <label class="cform">
                  Your message:
@@ -39,10 +40,10 @@
     <br /><br /><br /><br />
     <footer>&copy; Kaitlyn Theisen 2023
         <div>
-            <a href="https://www.facebook.com/kaitlyn.theisen.5/" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com/lil_hobbit_gal/" class="fa fa-instagram"></a>
-            <a href="youtube.com/channel/UC6GSKS7_VUkyMlMSv8GWeWw" class="fa fa-youtube"></a>
-            <a href="https://www.reddit.com/user/LittleHobbitGal" class="fa fa-reddit"></a>
+            <a href="https://www.facebook.com/kaitlyn.theisen.5/" aria-label="Kaitlyn's personal Facebook page" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/lil_hobbit_gal/" aria-label="Kaitlyn's personal Instagram page" class="fa fa-instagram"></a>
+            <a href="youtube.com/channel/UC6GSKS7_VUkyMlMSv8GWeWw" aria-label="Kaitlyn's personal Youtube channel" class="fa fa-youtube"></a>
+            <a href="https://www.reddit.com/user/LittleHobbitGal" aria-label="Kaitlyn's personal Reddit profile" class="fa fa-reddit"></a>
         </div>
     </footer>
 </body>
