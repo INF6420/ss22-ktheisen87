@@ -12,11 +12,20 @@
     <header>
         <img src="images/kaitlyns-reviews-header.webp" class="kat" alt="Green and yellow banner with an open book that says Kaitlyn's Reviews">
     </header>
-    <nav>
-        <button><a href="index.html" class="navbar">Home Page</a></button>
-        <button><a href="games.html" class="navbar">Video Game Reviews</a></button>
-        <button><a href="books.html" class="navbar">Book Reviews</a></button>
-        <button><a href="contact.html" class="navbar">Contact Me</a></button>
+    <nav class="topnav">
+        <a href="#" class="nav-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div id="topMenu" class="main-menu">
+            <ul>
+                <button><li><a href="index.html" class="navbar">Home Page</a></li></button>
+                <button><li><a href="games.html" class="navbar">Game Reviews</a></li></button>
+                <button><li><a href="books.html" class="navbar">Book Reviews</a></li></button>
+                <button><li><a href="contact.html" class="navbar">Contact Me</a></li></button>
+            </ul>
+        </div>
     </nav>
     <br /><br /><br />
     <main>
@@ -29,29 +38,29 @@
                 <tr>
                     <th>Game Name</th>
                     <th>Console</th>
-                    <th>Time to Complete</th>
-                    <th>Platinum Trophy?</th>
+                    <th class="hide">Time to Complete</th>
+                    <th class="hide">Platinum Trophy?</th>
                     <th>Rating</th>
                 </tr>
                 <tr>
                     <td>Stray</td>
                     <td class="col">PS4, PS5</td>
-                    <td class="col">5 hr</td>
-                    <td class="col">No</td>
+                    <td class="col hide">5 hr</td>
+                    <td class="col hide">No</td>
                     <td>8 out of 10</td>
                 </tr>
                 <tr>
                     <td>What Remains of Edith Finch</td>
                     <td class="col">PS4, PS5</td>
-                    <td class="col">2 hr</td>
-                    <td class="col">Yes</td>
+                    <td class="col hide">2 hr</td>
+                    <td class="col hide">Yes</td>
                     <td>10 out of 10</td>
                 </tr>
                 <tr>
                     <td>Lost Words: Beyond the Page</td>
                     <td class="col">PS4</td>
-                    <td class="col">7 hr</td>
-                    <td class="col">Yes</td>
+                    <td class="col hide">7 hr</td>
+                    <td class="col hide">Yes</td>
                     <td>8 out of 10</td>
                 </tr>
             </table>
@@ -63,30 +72,31 @@
                 <tr>
                     <th>Game Name</th>
                     <th>Console</th>
-                    <th>Time to Complete</th>
+                    <th class="hide">Time to Complete</th>
                     <th>Rating</th>
                 </tr>
                 <tr>
                     <td>Legend of Zelda: Ocarina of Time</td>
                     <td class="col">Nintendo 64</td>
-                    <td class="col">50+ hr</td>
+                    <td class="col hide">50+ hr</td>
                     <td>10 out of 10</td>
                 </tr>
                 <tr>
                     <td>Phoenix Wright: Ace Attorney</td>
                     <td class="col">Nintendo DS</td>
-                    <td class="col">20 hr</td>
+                    <td class="col hide">20 hr</td>
                     <td>7 out of 10</td>
                 </tr>
                 <tr>
                     <td>Cozy Grove</td>
                     <td class="col">Nintendo Switch</td>
-                    <td class="col">50+</td>
+                    <td class="col hide">50+</td>
                     <td>8 out of 10</td>
                 </tr>
             </table>
         </center>
     </main>
+    <script src="style.js"></script>
     <br /><br /><br /><br />
     <footer>&copy; Kaitlyn Theisen 2023
         <div>
