@@ -1,3 +1,10 @@
+const toggleButton = document.getElementsByClassName("nav-button")[0]
+const navbarLinks = document.getElementsByClassName("main-menu")[0]
+
+toggleButton.addEventListener('click', () =>{
+    navbarLinks.classList.toggle('active')
+})
+
 var forms = document.querySelectorAll('.validate');
 for (var i = 0; i < forms.length; i++){
     forms[i].setAttribute('novalidate', true);
